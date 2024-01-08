@@ -1,0 +1,97 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img-fluid{
+    width: 500px;
+}
+.card{
+   max-width: 2390px;
+   height: 1000px;
+   margin: 100px;
+   
+}
+
+.card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.texto {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    color: green;
+}
+
+.background{
+    background-color: #1f0d79;
+}
+
+.no-border-radius {
+    border-radius: 0; /* Elimina el borde redondeado */
+    border: none; /* Elimina el borde */
+    padding: 0.5rem 1rem; /* Ajusta el relleno según sea necesario */
+}
+
+.navbar-brand{
+    width: 30px;
+    
+}
+
+.navbar-icon{
+    width: 30px;
+    margin-left: 850px;
+}
+
+.dropdown-toggle {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    color: white;
+    
+}
+
+.navbar-nav{
+    justify-content: center;
+}
+
+.d-block{
+    background-color: rgb(100, 100, 100);
+}
+
+.addcarrito:hover{
+    background-color: #1f0d79;
+}
+
+.botones-navbar{
+    
+    padding: 10px 50px 12px;
+    font-size: 20px;
+    transition: 0.3s ease;
+    
+}
+.botones-navbar:hover{
+    background-color: #1f0d79;
+}
+
+.dropdown-menu{
+    width: 400px;
+    margin: 750px;
+}
+
+.miniatura-carrito {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin-right: 5px; /* Espaciado entre la miniatura y el texto */
+ }
+
+#listaCarritoDropdown {
+    max-width: 600px; /* Establece el ancho máximo de la lista según tus preferencias */
+    overflow: auto; /* Agrega una barra de desplazamiento si el contenido es demasiado largo */
+}
+ 

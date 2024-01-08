@@ -1,0 +1,185 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+
+/*  
+.carousel-inner {
+    max-height: 300px; 
+    overflow: hidden; 
+}
+.carousel-inner img {
+    max-height: 100%; 
+    width: auto; 
+    margin-top: -600px;
+}
+*/
+.card{
+    width: 18rem;
+    margin-bottom: 1px;
+    border-color: #1f0d79;
+}
+
+.btn{
+    border-color: #1f0d79;
+}
+
+.btn-sumar{
+    border-color: none;
+    transition: 0.3s ease;
+    margin: 2px;
+}
+
+.btn-sumar:hover{
+    color: white;
+    background-color: #1f0d79;
+}
+
+.btn-restar{
+    border-color: none;
+    transition: 0.3s ease;
+    margin: 2px;
+}
+
+.btn-restar:hover{
+    color: white;
+    background-color: #1f0d79;
+}
+
+.btn-eliminar{
+    border-color: none;
+    transition: 0.3s ease;
+    margin: 2px;
+}
+
+.btn-eliminar:hover{
+    color: white;
+    background-color: #1f0d79;
+}
+
+/* Estilo para el contenedor del filtro */
+.filtro-container {
+    max-width: 300px; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto;
+}
+
+/* Estilo para el botón del filtro */
+#filtroCategoria {
+    background-color: #1f0d79; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    border: none; /* Borde sin estilo */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre él */
+}
+
+/* Estilo para el botón del filtro cuando se pasa el mouse */
+#filtroCategoria:hover {
+    background-color: #1f0d79; /* Color de fondo cuando se pasa el mouse */
+}
+
+/* Estilo para el botón del filtro cuando está abierto */
+#filtroCategoria:active, #filtroCategoria:focus {
+    background-color: #1f0d79; /* Color de fondo cuando está activo o enfocado */
+    outline: none; /* Elimina el contorno predeterminado */
+}
+
+/* Estilo para las opciones del filtro */
+#filtroCategoria option {
+    background-color: #f9f9f9; /* Color de fondo de las opciones */
+    color: #333; /* Color del texto de las opciones */
+}
+
+/* Estilo para las opciones del filtro al pasar el mouse */
+#filtroCategoria option:hover {
+    background-color: #ddd; /* Color de fondo al pasar el mouse sobre las opciones */
+}
+
+.card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.texto {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    color: green;
+}
+
+.background{
+    background-color: #1f0d79;
+}
+
+.no-border-radius {
+    border-radius: 0; /* Elimina el borde redondeado */
+    border: none; /* Elimina el borde */
+    padding: 0.5rem 1rem; /* Ajusta el relleno según sea necesario */
+}
+
+.navbar-brand{
+    width: 30px;
+    
+}
+
+.navbar-icon{
+    width: 30px;
+    margin-left: 850px;
+}
+
+.dropdown-toggle {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    color: white;
+    
+}
+
+.navbar-nav{
+    justify-content: center;
+}
+
+.d-block{
+    background-color: rgb(100, 100, 100);
+}
+
+.btn:hover{
+    color: white;
+    background-color: #1f0d79;
+}
+
+.botones-navbar{
+    
+    padding: 10px 50px 12px;
+    font-size: 20px;
+    transition: 0.3s ease;
+    
+}
+.botones-navbar:hover{
+    background-color: #1f0d79;
+}
+
+.dropdown-menu{
+    width: 600px;
+    margin: 750px;
+}
+
+
+.miniatura-carrito {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin-right: 5px; /* Espaciado entre la miniatura y el texto */
+ }
+
+#listaCarritoDropdown {
+    max-width: 600px; /* Establece el ancho máximo de la lista según tus preferencias */
+    overflow: auto; /* Agrega una barra de desplazamiento si el contenido es demasiado largo */
+}
